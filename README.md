@@ -1,1 +1,132 @@
-# Healthcare-
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">HealthCare+</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Number">+91 9681935654</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your Health, Our Priority</h1>
+        <p>Providing the best medical services for you and your family.</p>
+        <br>
+        <h3>India's most trusted platform</h3>
+        <button>Book Appointment</button>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="card">
+                <h3>General Checkup</h3>
+                <br>
+                <p>Routine health checkups to keep you fit.</p>
+            </div>
+            <div class="card">
+                <h3>Cardiology</h3>
+                <br>
+                <p>Expert heart care and diagnostics.</p>
+            </div>
+            <div class="card">
+                <h3>Pediatrics</h3>
+                <br>
+                <p>Special care for infants and children.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Doctors -->
+    <section id="doctors" class="doctors">
+        <h2>Our Doctors</h2>
+        <br>
+        <div class="doctor-container">
+            <div class="doctor-card">
+                <h3>Dr.Chowdhury</h3>
+                <h6>MBBS , M.D<h6>
+                        <br>
+                        <p>Cardiologist</p>
+            </div>
+            <div class="doctor-card">
+                <h3>Dr.Basak</h3>
+                <h6>MD , DM (Gastro)</h6>
+                <br>
+                <p>Gastroenterology</p>
+            </div>
+            <div class="doctor-card">
+                <h3>Dr.Sarkar</h3>
+                <h6>MBBS , MD , DM</h6>
+                <br>
+                <p>General Physician</p>
+            </div>
+        </div>
+    </section>
+
+    !<!--Technicians and support staff nurses-->
+    <section id="supporting staff" class="technologists">
+        <h2>Our Supporting Staff</h2>
+        <br>
+        <div class="technologists-container">
+            <div class="technologists-card">
+                <h3>Mr.Utsha Chowdhury</h3>
+                <br>
+                <p>Medical lab Technologist</p>
+                <h5>BMLT , MMLT</h5>
+            </div>
+            <div class="technologists-card">
+                <h3>Mr.Kuntal Maity</h3>
+                <br>
+                <br>
+                <p>Critical Care Technologists</p>
+                <h5>BMICCT</h5>
+            </div>
+            <div class="technologists-card">
+                <h3>Mrs. Jyanika Maji</h3>
+                <br>
+                <p>Matron Nurse </p>
+                <h5>B.sc & M.sc Nursing , PHD</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <iframe src="http://127.0.0.1:7861" width="100%" height="600" frameborder="0">
+    </iframe>
+
+    <!-- Footer -->
+    <footer>
+        <p>2026 HealthCare+. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
